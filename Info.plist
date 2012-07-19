@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Mini-Bezel</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.qsapp.MiniBezel</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Mini-Bezel</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>QSPlugIn</key>
+	<dict>
+		<key>categories</key>
+		<array>
+			<string>Interfaces</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>extendedDescription</key>
+		<string></string>
+		<key>icon</key>
+		<string></string>
+		<key>qsversion</key>
+		<string>29CC</string>
+		<key>relatedBundles </key>
+		<array/>
+	</dict>
+	<key>QSRegistration</key>
+	<dict>
+		<key>QSCommandInterfaceControllers</key>
+		<dict>
+			<key>Mini-Bezel</key>
+			<string>Mini_Bezel</string>
+		</dict>
+		<key>QSPreferencePanesTemplate</key>
+		<dict>
+			<key>Mini_BezelPrefPane</key>
+			<dict>
+				<key>class</key>
+				<string>QSPreferencePane</string>
+				<key>description</key>
+				<string>Mini-Bezel interface preferences</string>
+				<key>icon</key>
+				<string></string>
+				<key>name</key>
+				<string>Mini-Bezel</string>
+				<key>nibBundle</key>
+				<string>com.qsapp.MiniBezel</string>
+				<key>nibName</key>
+				<string>Mini_BezelPrefPane</string>
+				<key>type</key>
+				<string>hidden</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
