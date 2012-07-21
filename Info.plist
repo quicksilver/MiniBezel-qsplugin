@@ -15,9 +15,16 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>60</string>
+	<string>62</string>
+	<key>QSRequirements</key>
+	<dict>
+		<key>obsoletes</key>
+		<array>
+			<string>com.blacktree.Quicksilver.Mini_Bezel</string>
+		</array>
+	</dict>
 	<key>QSPlugIn</key>
 	<dict>
 		<key>categories</key>
@@ -25,9 +32,11 @@
 			<string>Interfaces</string>
 		</array>
 		<key>description</key>
-		<string>A more compact version of the Bezel interface. It's smaller, and doesn't have description text under the displayed objects.</string>
+		<string>A more compact version of the Bezel interface. It&apos;s smaller, and doesn&apos;t have description text under the displayed objects.</string>
 		<key>qsversion</key>
 		<string>29CC</string>
+		<key>icon</key>
+		<string></string>
 	</dict>
 	<key>QSRegistration</key>
 	<dict>
