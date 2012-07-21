@@ -8,12 +8,6 @@
 //  QS Interface template by Vacuous Virtuoso
 //
 
-#import <QSInterface/QSBezelBackgroundView.h>
-#import <QSInterface/QSSearchObjectView.h>
-#import <QSInterface/QSInterface.h>
-#import <QSInterface/QSObjectCell.h>
-#import <QSEffects/QSWindow.h>
-
 #import "Mini_Bezel.h"
 
 @implementation Mini_Bezel

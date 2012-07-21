@@ -9,9 +9,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-//#import <QSFoundation/QSFoundation.h>
-//#import <QSCore/QSCore.h>
-#import <QSInterface/QSResizingInterfaceController.h>
 
 @interface Mini_Bezel : QSResizingInterfaceController
 {
