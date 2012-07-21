@@ -209,8 +209,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD6A12E015BAA24100AB73FD /* QSPlugIn.xcconfig */;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Mini_Bezel_Prefix.pch;
 				OTHER_LDFLAGS = "-bundle";
 				PRODUCT_NAME = "Mini-Bezel";
 				WRAPPER_EXTENSION = qsplugin;
@@ -222,8 +220,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD6A12E015BAA24100AB73FD /* QSPlugIn.xcconfig */;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Mini_Bezel_Prefix.pch;
 				OTHER_LDFLAGS = "-bundle";
 				PRODUCT_NAME = "Mini-Bezel";
 				WRAPPER_EXTENSION = qsplugin;

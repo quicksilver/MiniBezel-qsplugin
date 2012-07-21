@@ -25,17 +25,17 @@
 			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
 			<integer value="1" key="NS.object.0"/>
 		</object>
-		<array class="NSMutableArray" key="IBDocument.RootObjects" id="713807223">
-			<object class="NSCustomObject" id="738646941">
+		<array class="NSMutableArray" key="IBDocument.RootObjects" id="357084602">
+			<object class="NSCustomObject" id="400702276">
 				<string key="NSClassName">NSPreferencePane</string>
 			</object>
-			<object class="NSCustomObject" id="921715963">
+			<object class="NSCustomObject" id="917640476">
 				<string key="NSClassName">FirstResponder</string>
 			</object>
-			<object class="NSCustomObject" id="207699777">
+			<object class="NSCustomObject" id="316203125">
 				<string key="NSClassName">NSApplication</string>
 			</object>
-			<object class="NSWindowTemplate" id="675191436">
+			<object class="NSWindowTemplate" id="233032013">
 				<int key="NSWindowStyleMask">7</int>
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{77, 418}, {360, 329}}</string>
@@ -47,17 +47,17 @@
 				</object>
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<string key="NSWindowContentMinSize">{224.66399999999999, 5}</string>
-				<object class="NSView" key="NSWindowView" id="232981413">
+				<object class="NSView" key="NSWindowView" id="378553017">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
-						<object class="NSTextField" id="1072850358">
-							<reference key="NSNextResponder" ref="232981413"/>
+						<object class="NSTextField" id="318516554">
+							<reference key="NSNextResponder" ref="378553017"/>
 							<int key="NSvFlags">258</int>
 							<string key="NSFrame">{{17, 226}, {326, 20}}</string>
-							<reference key="NSSuperview" ref="232981413"/>
+							<reference key="NSSuperview" ref="378553017"/>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSTextFieldCell" key="NSCell" id="587691614">
+							<object class="NSTextFieldCell" key="NSCell" id="87747425">
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">138412032</int>
 								<string key="NSContents">Add bindings here to customize your interface</string>
@@ -66,7 +66,7 @@
 									<double key="NSSize">13</double>
 									<int key="NSfFlags">1044</int>
 								</object>
-								<reference key="NSControlView" ref="1072850358"/>
+								<reference key="NSControlView" ref="318516554"/>
 								<object class="NSColor" key="NSBackgroundColor">
 									<int key="NSColorSpace">6</int>
 									<string key="NSCatalogName">System</string>
@@ -96,7 +96,7 @@
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
-			<object class="NSUserDefaultsController" id="63853465">
+			<object class="NSUserDefaultsController" id="126445755">
 				<bool key="NSSharedInstance">YES</bool>
 			</object>
 		</array>
@@ -105,8 +105,8 @@
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">_window</string>
-						<reference key="source" ref="738646941"/>
-						<reference key="destination" ref="675191436"/>
+						<reference key="source" ref="400702276"/>
+						<reference key="destination" ref="233032013"/>
 					</object>
 					<int key="connectionID">26</int>
 				</object>
@@ -116,60 +116,60 @@
 					<object class="IBObjectRecord">
 						<int key="objectID">0</int>
 						<array key="object" id="0"/>
-						<reference key="children" ref="713807223"/>
+						<reference key="children" ref="357084602"/>
 						<nil key="parent"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">-2</int>
-						<reference key="object" ref="738646941"/>
+						<reference key="object" ref="400702276"/>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">File's Owner</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">-1</int>
-						<reference key="object" ref="921715963"/>
+						<reference key="object" ref="917640476"/>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">First Responder</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">12</int>
-						<reference key="object" ref="675191436"/>
+						<reference key="object" ref="233032013"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="232981413"/>
+							<reference ref="378553017"/>
 						</array>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">PrefPane</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">6</int>
-						<reference key="object" ref="232981413"/>
+						<reference key="object" ref="378553017"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="1072850358"/>
+							<reference ref="318516554"/>
 						</array>
-						<reference key="parent" ref="675191436"/>
+						<reference key="parent" ref="233032013"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">420</int>
-						<reference key="object" ref="1072850358"/>
+						<reference key="object" ref="318516554"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="587691614"/>
+							<reference ref="87747425"/>
 						</array>
-						<reference key="parent" ref="232981413"/>
+						<reference key="parent" ref="378553017"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">144</int>
-						<reference key="object" ref="63853465"/>
+						<reference key="object" ref="126445755"/>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">Shared Defaults</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">422</int>
-						<reference key="object" ref="587691614"/>
-						<reference key="parent" ref="1072850358"/>
+						<reference key="object" ref="87747425"/>
+						<reference key="parent" ref="318516554"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">-3</int>
-						<reference key="object" ref="207699777"/>
+						<reference key="object" ref="316203125"/>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">Application</string>
 					</object>
