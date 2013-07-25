@@ -8,8 +8,6 @@
 //  QS Interface template by Vacuous Virtuoso
 //
 
-#import <Cocoa/Cocoa.h>
-
 @interface Mini_Bezel : QSResizingInterfaceController
 {
   NSRect standardRect;

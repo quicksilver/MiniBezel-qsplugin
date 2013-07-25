@@ -18,8 +18,6 @@
 		CD6A12E615BAA24100AB73FD /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CD6A12DE15BAA24100AB73FD /* Debug.xcconfig */; };
 		CD6A12E715BAA24100AB73FD /* Developer.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CD6A12DF15BAA24100AB73FD /* Developer.xcconfig */; };
 		CD6A12E815BAA24100AB73FD /* QSPlugIn.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CD6A12E015BAA24100AB73FD /* QSPlugIn.xcconfig */; };
-		CD6A12E915BAA24100AB73FD /* QSPlugIn_Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CD6A12E115BAA24100AB73FD /* QSPlugIn_Debug.xcconfig */; };
-		CD6A12EA15BAA24100AB73FD /* QSPlugIn_Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CD6A12E215BAA24100AB73FD /* QSPlugIn_Release.xcconfig */; };
 		CD6A12EB15BAA24100AB73FD /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CD6A12E415BAA24100AB73FD /* Release.xcconfig */; };
 		E1EAB046068128A200774DFF /* Mini_Bezel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB045068128A200774DFF /* Mini_Bezel.m */; };
 /* End PBXBuildFile section */
@@ -37,8 +35,6 @@
 		CD6A12DE15BAA24100AB73FD /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		CD6A12DF15BAA24100AB73FD /* Developer.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
 		CD6A12E015BAA24100AB73FD /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
-		CD6A12E115BAA24100AB73FD /* QSPlugIn_Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Debug.xcconfig; sourceTree = "<group>"; };
-		CD6A12E215BAA24100AB73FD /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Release.xcconfig; sourceTree = "<group>"; };
 		CD6A12E315BAA24100AB73FD /* Quicksilver.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
 		CD6A12E415BAA24100AB73FD /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -120,8 +116,6 @@
 				CD6A12DE15BAA24100AB73FD /* Debug.xcconfig */,
 				CD6A12DF15BAA24100AB73FD /* Developer.xcconfig */,
 				CD6A12E015BAA24100AB73FD /* QSPlugIn.xcconfig */,
-				CD6A12E115BAA24100AB73FD /* QSPlugIn_Debug.xcconfig */,
-				CD6A12E215BAA24100AB73FD /* QSPlugIn_Release.xcconfig */,
 				CD6A12E315BAA24100AB73FD /* Quicksilver.pch */,
 				CD6A12E415BAA24100AB73FD /* Release.xcconfig */,
 			);
@@ -185,8 +179,6 @@
 				CD6A12E615BAA24100AB73FD /* Debug.xcconfig in Resources */,
 				CD6A12E715BAA24100AB73FD /* Developer.xcconfig in Resources */,
 				CD6A12E815BAA24100AB73FD /* QSPlugIn.xcconfig in Resources */,
-				CD6A12E915BAA24100AB73FD /* QSPlugIn_Debug.xcconfig in Resources */,
-				CD6A12EA15BAA24100AB73FD /* QSPlugIn_Release.xcconfig in Resources */,
 				CD6A12EB15BAA24100AB73FD /* Release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
