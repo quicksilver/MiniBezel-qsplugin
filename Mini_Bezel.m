@@ -64,17 +64,19 @@
 }
 
 - (void)dealloc {
-	[[[self window] contentView] unbind:@"color"];
-	[[self window] unbind:@"hasShadow"];
-	[commandView unbind:@"textColor"];
-	NSArray *theControls = [NSArray arrayWithObjects:dSelector, aSelector, iSelector, nil];
-	for(id theControl in theControls) {
-		NSCell *theCell = [theControl cell];
-		[theCell unbind:@"highlightColor"];
-		[theCell unbind:@"textColor"];
-		[(QSObjectCell *)theCell setTextColor:nil];
-		[(QSObjectCell *)theCell setHighlightColor:nil];
-	}
+    if ([self isWindowLoaded]) {
+        [[[self window] contentView] unbind:@"color"];
+        [[self window] unbind:@"hasShadow"];
+        [commandView unbind:@"textColor"];
+        NSArray *theControls = [NSArray arrayWithObjects:dSelector, aSelector, iSelector, nil];
+        for(id theControl in theControls) {
+            NSCell *theCell = [theControl cell];
+            [theCell unbind:@"highlightColor"];
+            [theCell unbind:@"textColor"];
+            [(QSObjectCell *)theCell setTextColor:nil];
+            [(QSObjectCell *)theCell setHighlightColor:nil];
+        }
+    }
 	[super dealloc];
 }
 
