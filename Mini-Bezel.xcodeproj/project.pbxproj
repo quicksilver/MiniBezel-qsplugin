@@ -14,11 +14,6 @@
 		C94EA13715B8347200BA25C0 /* QSEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94EA13315B8347100BA25C0 /* QSEffects.framework */; };
 		C94EA13815B8347200BA25C0 /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94EA13415B8347100BA25C0 /* QSFoundation.framework */; };
 		C94EA13915B8347200BA25C0 /* QSInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94EA13515B8347100BA25C0 /* QSInterface.framework */; };
-		CD6A12E515BAA24100AB73FD /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CD6A12DD15BAA24100AB73FD /* Common.xcconfig */; };
-		CD6A12E615BAA24100AB73FD /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CD6A12DE15BAA24100AB73FD /* Debug.xcconfig */; };
-		CD6A12E715BAA24100AB73FD /* Developer.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CD6A12DF15BAA24100AB73FD /* Developer.xcconfig */; };
-		CD6A12E815BAA24100AB73FD /* QSPlugIn.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CD6A12E015BAA24100AB73FD /* QSPlugIn.xcconfig */; };
-		CD6A12EB15BAA24100AB73FD /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CD6A12E415BAA24100AB73FD /* Release.xcconfig */; };
 		E1EAB046068128A200774DFF /* Mini_Bezel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB045068128A200774DFF /* Mini_Bezel.m */; };
 /* End PBXBuildFile section */
 
@@ -150,7 +145,7 @@
 		0259C573FE90428111CA0C5A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 7F6B3EEF085CE8DF000735A8 /* Build configuration list for PBXProject "Mini-Bezel" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -175,11 +170,6 @@
 			files = (
 				BB79B99D0C11A9B6002CF9B7 /* Mini_BezelPrefPane.nib in Resources */,
 				2B109F1510D0B4A70018DB2D /* Mini_Bezel.xib in Resources */,
-				CD6A12E515BAA24100AB73FD /* Common.xcconfig in Resources */,
-				CD6A12E615BAA24100AB73FD /* Debug.xcconfig in Resources */,
-				CD6A12E715BAA24100AB73FD /* Developer.xcconfig in Resources */,
-				CD6A12E815BAA24100AB73FD /* QSPlugIn.xcconfig in Resources */,
-				CD6A12EB15BAA24100AB73FD /* Release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
