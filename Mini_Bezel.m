@@ -45,7 +45,7 @@
 
   NSArray *theControls = [NSArray arrayWithObjects:dSelector, aSelector, iSelector, nil];
   for(id theControl in theControls) {
-    NSCell *theCell = [theControl cell];
+    QSObjectCell *theCell = [theControl cell];
     if ([theCell respondsToSelector:@selector(setNameFont:)]) [theCell setNameFont:[NSFont systemFontOfSize:11.0f]];
     [theCell setAlignment:NSCenterTextAlignment];
     if ([theControl respondsToSelector:@selector(setTextCellFont:)]) [theControl setTextCellFont:[NSFont systemFontOfSize:11.0f]];
