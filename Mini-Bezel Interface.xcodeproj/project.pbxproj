@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		2B109F1410D0B4A70018DB2D /* Mini_Bezel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Mini_Bezel.xib; sourceTree = "<group>"; };
 		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1AC9740486D14A00FE50C9 /* Mini-Bezel.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mini-Bezel.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1AC9740486D14A00FE50C9 /* Mini-Bezel Interface.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mini-Bezel Interface.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB79B99C0C11A9B6002CF9B7 /* Mini_BezelPrefPane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Mini_BezelPrefPane.nib; sourceTree = "<group>"; };
 		C94EA13215B8347100BA25C0 /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94EA13315B8347100BA25C0 /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,7 +78,7 @@
 		1ED78706FE9D4A0611CA0C5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1AC9740486D14A00FE50C9 /* Mini-Bezel.qsplugin */,
+				8D1AC9740486D14A00FE50C9 /* Mini-Bezel Interface.qsplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,9 +121,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1AC9600486D14A00FE50C9 /* Mini-Bezel */ = {
+		8D1AC9600486D14A00FE50C9 /* Mini-Bezel Interface Interface */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F6B3EEB085CE8DF000735A8 /* Build configuration list for PBXNativeTarget "Mini-Bezel" */;
+			buildConfigurationList = 7F6B3EEB085CE8DF000735A8 /* Build configuration list for PBXNativeTarget "Mini-Bezel Interface Interface" */;
 			buildPhases = (
 				8D1AC9660486D14A00FE50C9 /* Resources */,
 				8D1AC96A0486D14A00FE50C9 /* Sources */,
@@ -133,10 +133,10 @@
 			);
 			dependencies = (
 			);
-			name = "Mini-Bezel";
+			name = "Mini-Bezel Interface Interface";
 			productInstallPath = "$(HOME)/Developer/Palettes";
 			productName = "Mini-Bezel";
-			productReference = 8D1AC9740486D14A00FE50C9 /* Mini-Bezel.qsplugin */;
+			productReference = 8D1AC9740486D14A00FE50C9 /* Mini-Bezel Interface.qsplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -146,19 +146,25 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
+				TargetAttributes = {
+					8D1AC9600486D14A00FE50C9 = {
+						ProvisioningStyle = Manual;
+					};
+				};
 			};
-			buildConfigurationList = 7F6B3EEF085CE8DF000735A8 /* Build configuration list for PBXProject "Mini-Bezel" */;
+			buildConfigurationList = 7F6B3EEF085CE8DF000735A8 /* Build configuration list for PBXProject "Mini-Bezel Interface" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 0259C574FE90428111CA0C5A /* Mini_Bezel */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1AC9600486D14A00FE50C9 /* Mini-Bezel */,
+				8D1AC9600486D14A00FE50C9 /* Mini-Bezel Interface Interface */,
 			);
 		};
 /* End PBXProject section */
@@ -192,7 +198,7 @@
 			baseConfigurationReference = CD6A12E015BAA24100AB73FD /* QSPlugIn.xcconfig */;
 			buildSettings = {
 				OTHER_LDFLAGS = "-bundle";
-				PRODUCT_NAME = "Mini-Bezel";
+				PRODUCT_NAME = "Mini-Bezel Interface";
 				WRAPPER_EXTENSION = qsplugin;
 				ZERO_LINK = YES;
 			};
@@ -203,7 +209,7 @@
 			baseConfigurationReference = CD6A12E015BAA24100AB73FD /* QSPlugIn.xcconfig */;
 			buildSettings = {
 				OTHER_LDFLAGS = "-bundle";
-				PRODUCT_NAME = "Mini-Bezel";
+				PRODUCT_NAME = "Mini-Bezel Interface";
 				WRAPPER_EXTENSION = qsplugin;
 				ZERO_LINK = NO;
 			};
@@ -226,7 +232,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F6B3EEB085CE8DF000735A8 /* Build configuration list for PBXNativeTarget "Mini-Bezel" */ = {
+		7F6B3EEB085CE8DF000735A8 /* Build configuration list for PBXNativeTarget "Mini-Bezel Interface Interface" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F6B3EEC085CE8DF000735A8 /* Debug */,
@@ -235,7 +241,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F6B3EEF085CE8DF000735A8 /* Build configuration list for PBXProject "Mini-Bezel" */ = {
+		7F6B3EEF085CE8DF000735A8 /* Build configuration list for PBXProject "Mini-Bezel Interface" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F6B3EF0085CE8DF000735A8 /* Debug */,
